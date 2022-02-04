@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.briolink.location.configuration.BlLocationServiceAutoConfiguration
+com.briolink.lib.location.configuration.BlLocationServiceAutoConfiguration
