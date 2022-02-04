@@ -1,4 +1,4 @@
-package com.briolink.location.configuration
+package com.briolink.lib.location.configuration
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.context.properties.ConstructorBinding

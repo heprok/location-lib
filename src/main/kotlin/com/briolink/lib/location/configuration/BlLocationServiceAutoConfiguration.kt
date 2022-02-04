@@ -1,6 +1,6 @@
-package com.briolink.location.configuration
+package com.briolink.lib.location.configuration
 
-import com.briolink.location.service.LocationService
+import com.briolink.lib.location.service.LocationService
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
 import org.springframework.boot.context.properties.EnableConfigurationProperties

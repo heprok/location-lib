@@ -1,4 +1,4 @@
-package com.briolink.location.model
+package com.briolink.lib.location.model
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

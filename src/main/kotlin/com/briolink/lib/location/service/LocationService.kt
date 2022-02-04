@@ -1,10 +1,10 @@
-package com.briolink.location.service
+package com.briolink.lib.location.service
 
-import com.briolink.location.exception.FailedParseLocationIdException
-import com.briolink.location.exception.UnavailableLocationServiceException
-import com.briolink.location.model.LocationId
-import com.briolink.location.model.LocationInfoInterface
-import com.briolink.location.model.LocationSuggestion
+import com.briolink.lib.location.exception.FailedParseLocationIdException
+import com.briolink.lib.location.exception.UnavailableLocationServiceException
+import com.briolink.lib.location.model.LocationId
+import com.briolink.lib.location.model.LocationInfoInterface
+import com.briolink.lib.location.model.LocationSuggestion
 import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
 import org.springframework.web.reactive.function.client.WebClient

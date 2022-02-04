@@ -1,4 +1,4 @@
-package com.briolink.location.exception
+package com.briolink.lib.location.exception
 
 import org.springframework.http.HttpStatus
 

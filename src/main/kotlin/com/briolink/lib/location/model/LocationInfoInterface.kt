@@ -1,6 +1,6 @@
-package com.briolink.location.model
+package com.briolink.lib.location.model
 
-import com.briolink.location.enumeration.TypeLocationEnum
+import com.briolink.lib.location.enumeration.TypeLocationEnum
 
 interface LocationInfoInterface {
     val country: LocationInfoTypeInterface

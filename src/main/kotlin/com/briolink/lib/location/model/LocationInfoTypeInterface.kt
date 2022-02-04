@@ -1,4 +1,4 @@
-package com.briolink.location.model
+package com.briolink.lib.location.model
 
 interface LocationInfoTypeInterface {
     var id: Int
