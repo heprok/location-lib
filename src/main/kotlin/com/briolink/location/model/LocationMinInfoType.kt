@@ -2,9 +2,9 @@ package com.briolink.location.model
 
 import com.fasterxml.jackson.annotation.JsonProperty
 
-data class LocationSuggestion(
+data class LocationMinInfoType(
     @JsonProperty
-    val locationId: LocationId,
+    override var id: Int,
     @JsonProperty
-    val name: String,
-)
+    override var name: String
+) : LocationInfoTypeInterface

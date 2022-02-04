@@ -4,10 +4,10 @@ import com.fasterxml.jackson.annotation.JsonProperty
 
 data class City(
     @JsonProperty
-    var id: Int? = null,
+    override var id: Int,
 
     @JsonProperty
-    var name: String,
+    override var name: String,
 
     @JsonProperty
     var countryCode: String,
@@ -26,4 +26,4 @@ data class City(
 
     @JsonProperty
     var wikiDataId: String? = null,
-)
+) : LocationInfoTypeInterface

@@ -4,10 +4,10 @@ import com.fasterxml.jackson.annotation.JsonProperty
 
 class Country(
     @JsonProperty
-    var id: Int? = null,
+    override var id: Int,
 
     @JsonProperty
-    var name: String,
+    override var name: String,
 
     @JsonProperty
     var iso3: String? = null,
@@ -56,4 +56,4 @@ class Country(
 
     @JsonProperty
     var emojiU: String? = null,
-)
+) : LocationInfoTypeInterface

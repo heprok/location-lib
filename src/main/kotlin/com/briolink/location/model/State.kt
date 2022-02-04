@@ -4,10 +4,10 @@ import com.fasterxml.jackson.annotation.JsonProperty
 
 data class State(
     @JsonProperty
-    var id: Int? = null,
+    override var id: Int,
 
     @JsonProperty
-    var name: String,
+    override var name: String,
 
     @JsonProperty
     var countryId: Int = 0,
@@ -26,4 +26,4 @@ data class State(
 
     @JsonProperty
     var longitude: Double? = null,
-)
+) : LocationInfoTypeInterface
