@@ -25,7 +25,7 @@ class LocationService(private val webClient: WebClient) {
     fun <T : LocationInfoInterface> getLocationInfo(locationId: LocationId, type: Class<T>): T? {
         return try {
             webClient.get()
-                .uri("/$locationUrl/info?type=${locationId.type.name}/${locationId.id}")
+                .uri("/$locationUrl/info/${locationId.type.name}/${locationId.id}")
                 .retrieve()
                 .onStatus(HttpStatus::is5xxServerError) { throw UnavailableLocationServiceException() }
                 .onStatus({ it.value() == HttpStatus.BAD_REQUEST.value() }) {
