@@ -29,7 +29,7 @@ In the project configuration add lines to connect to the api location-service
 ```yaml
 location-service:
   api:
-    url: https://location-service.${env.spring_profiles_active}.svc.cluster.local/
+    url: http://location-service.${env.spring_profiles_active}.svc.cluster.local/
     version: 1
 ```
 
